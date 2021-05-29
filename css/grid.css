@@ -1,0 +1,69 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: tahoma, arial;
+	font-size: 14px;
+}
+header{
+	width: 100%;
+	height: 230px;
+	background: #211399;
+	color: #fff;
+	padding: 10px;
+}
+#topnav{
+	background: #0889a0;
+	height: 30px;
+	color: #fff;
+}
+.container{
+	display: grid;
+	grid-template-columns: 25% 75%;
+	height: 500px;
+}
+.container article{
+	padding: 30px;
+}
+aside{
+	background:  #0841a0;
+	height: 500px;
+}
+.main {
+	background: #ccc;
+}
+/*Định dạng danh sách sản phẩm*/
+.grid-container{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	margin-top:15px;
+}
+
+.grid-container .item{
+	background:  #b00878;
+	height: 160px;
+	border: 1px solid #ccc;
+	padding: 10px;	
+}
+
+/*Định dạng cột menu bên trái*/
+#menu{
+	padding: 10px 25px;
+}
+
+#menu li{
+	/*Display:inline dùng để chuyển danh sách sang dạng hàng;*/
+	/*display: inline;*/
+	background:  #08b033;
+	padding: 5px;
+	border-bottom: 1px solid #ccc;
+	list-style-type: none;
+}
+
+footer{
+	background:  #042356;
+	height: 200px;
+	width: 100%;	
+}

@@ -1,0 +1,31 @@
+
+/*Thẻ*/
+body {
+    background:#09e774; 
+    color: #e74509 ; 
+    font-size: 28px;
+}
+
+/*Thuộc tính Class thì thêm dấu . trước tên class */
+.top {
+	font-size: 30px !important;
+	height:  200px !important;
+}
+
+.txtHeader{
+    color:#2009e7;
+    font-size: 14px;
+    height: 20px;
+    background: #fff;
+}
+
+
+
+/*Thuộc tính là ID thì thêm dấu # trước tên ID*/
+
+/*
+#tenID{
+	color:#2009e7;
+    font-size: 14px
+}
+*/

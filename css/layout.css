@@ -1,0 +1,50 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family: tahoma, arial;
+	font-size: 14px;
+}
+header{
+	width: 100%;
+	height: 230px;
+	background: #211399;
+	color: #fff;
+}
+#topnav{
+	background: #0889a0;
+	height: 30px;
+	color: #fff;
+}
+.container{
+	width: 100%;
+}
+aside{
+	background:  #0841a0;
+	height: 200px;
+	width: 25%;
+	float: left;
+}
+.main {
+	background: #ccc;
+	height: 200px;
+	width: 75%;
+	float: left;
+}
+/*Cách 1 xóa ảnh hưởng của thuộc tính float cho các thẻ ở sau container*/
+.container::after{
+	content: "";
+	display: table;
+	clear:left;
+}
+
+footer{
+	background:  #042356;
+	height: 200px;
+	width: 100%;
+	/*Cách 2 xóa ảnh hưởng của thuộc tính float cho chính thẻ footer*/
+/*	clear:both;
+*/
+}
